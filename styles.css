@@ -1,0 +1,173 @@
+
+:root{
+  --bg:#f9f5ef;
+  --paper:#ffffff;
+  --ink:#2d2622;
+  --ink2:#6a544d;
+  --line:#e6dbd0;
+  --accent:#af9384;
+  --radius-lg: 24px;
+  --radius-md: 16px;
+  --container: 1180px;
+}
+*{box-sizing:border-box}
+html,body{margin:0;background:linear-gradient(180deg,#fff 0,var(--bg) 60%);color:var(--ink);
+  font-family: ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial; line-height:1.65}
+img{max-width:100%;height:auto;display:block}
+a{color:var(--ink2)}
+
+.sitebar{position:sticky;top:0;z-index:1000;display:flex;align-items:center;justify-content:space-between;gap:.8rem;
+  padding:.8rem 1rem;background:rgba(255,255,255,.78);backdrop-filter:blur(12px) saturate(140%);border-bottom:1px solid var(--line)}
+.brand{display:flex;align-items:center;gap:.6rem;text-decoration:none;color:var(--ink)}
+.brand img{width:44px;height:44px;border-radius:50%;border:1px solid var(--line)}
+.brand span{font-weight:700;letter-spacing:.25px}
+.nav ul{display:flex;gap:.5rem;list-style:none;margin:0;padding:0}
+.nav a{text-decoration:none;padding:.5rem .9rem;border-radius:999px;color:var(--ink)}
+.nav a[aria-current="page"]{background:#fff;border:1px solid var(--line)}
+.burger{display:none;border:0;background:transparent;font-size:1.4rem}
+.btn{border:1px solid var(--ink2);background:var(--ink2);color:#fff;border-radius:14px;padding:.55rem .95rem;text-decoration:none;cursor:pointer;display:inline-flex;align-items:center;justify-content:center}
+.btn.ghost{background:transparent;color:var(--ink2)}
+.btn.sm{padding:.35rem .7rem;font-size:.95rem}
+
+.page{max-width:var(--container);margin:0 auto;padding:1rem}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1rem}
+.card{background:var(--paper);border:1px solid var(--line);border-radius:var(--radius-lg);padding:1rem;box-shadow:0 10px 28px rgba(0,0,0,.06)}
+.rounded{border-radius:var(--radius-md)}
+.grid.two{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem}
+
+.hero-bleed{position:relative;isolation:isolate;overflow:hidden;border-radius:var(--radius-lg);margin:1rem 0}
+.hero-bleed img{width:100%;height:clamp(280px,52vh,620px);object-fit:cover;display:block;filter:contrast(1.05) saturate(1.02)}
+.hero-overlay{position:absolute;inset:0;display:flex;flex-direction:column;align-items:flex-start;justify-content:flex-end;padding:1rem;background:linear-gradient(180deg,rgba(0,0,0,.0),rgba(0,0,0,.25))}
+.hero-overlay h1, .hero-overlay p{color:#fff;text-shadow:0 2px 12px rgba(0,0,0,.35)}
+.hero-overlay .mark{width:96px;border-radius:50%;border:2px solid rgba(255,255,255,.7);margin-bottom:.5rem}
+
+.split{display:grid;grid-template-columns:1fr 1fr;gap:1rem;align-items:center;margin:1rem 0}
+.ratio-4x3{aspect-ratio:4/3}
+
+.intro-narrow{max-width:820px;margin:1.2rem auto 1rem;padding:0 1rem}
+.weather{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:.4rem;align-items:stretch}
+.weather .day{text-align:center;background:#fff;border:1px solid var(--line);border-radius:12px;padding:.45rem .35rem;display:grid;gap:.2rem;place-items:center}
+.weather .ico{font-size:1.25rem;line-height:1}
+
+.snap-slider{position:relative}
+.snap-slider .rail{display:flex;gap:.5rem;overflow-x:auto;scroll-snap-type:x mandatory;scroll-behavior:smooth;padding-bottom:.25rem}
+.snap-slider .rail::-webkit-scrollbar{height:8px} .snap-slider .rail::-webkit-scrollbar-thumb{background:#d8cdc4;border-radius:99px}
+.snap-slider .slide{flex:0 0 85%;max-width:85%;scroll-snap-align:center;position:relative;border-radius:var(--radius-lg);overflow:hidden;background:#f6f2ee}
+.snap-slider .slide img{width:100%;height:clamp(220px,45vh,540px);object-fit:cover;display:block}
+.snap-slider .ctrl{position:absolute;top:50%;transform:translateY(-50%);width:44px;height:44px;border-radius:50%;border:0;background:rgba(0,0,0,.35);color:#fff;cursor:pointer}
+.snap-slider .prev{left:.4rem} .snap-slider .next{right:.4rem}
+
+.foot{margin-top:2rem;padding:1.2rem;background:#f2ebe4;border-top:1px solid var(--line)}
+.fgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1rem}
+.copy{text-align:center;opacity:.8;margin-top:.5rem}
+
+.wa{position:fixed;left:14px;bottom:18px;width:56px;height:56px;background:#25D366;border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 8px 20px rgba(0,0,0,.25);text-decoration:none;color:#fff;font-weight:700}
+
+@media (max-width: 980px){
+  .split{grid-template-columns:1fr}
+  .nav ul{display:none;position:absolute;right:12px;top:64px;background:#fff;border:1px solid var(--line);border-radius:12px;padding:.5rem;box-shadow:0 16px 42px rgba(0,0,0,.12)}
+  .nav ul.open{display:flex;flex-direction:column}
+  .burger{display:block}
+  .weather{grid-auto-flow:column;grid-auto-columns:minmax(92px,1fr);overflow-x:auto;overflow-y:hidden;padding-bottom:.25rem;scroll-snap-type:x mandatory} .weather .day{scroll-snap-align:center}
+  .snap-slider .slide{flex-basis:90%;max-width:90%}
+}
+@media (max-width: 640px){
+  .cards{grid-template-columns:1fr}
+  .snap-slider .slide{flex-basis:100%;max-width:100%}
+}
+
+@media (max-width:640px){ .weather{grid-auto-columns:92px} }
+
+
+/* Elegant form refinement */
+.form.elegant .field{display:block}
+.form.elegant label{font-weight:600}
+.form.elegant .hint{font-weight:400; opacity:.75; font-size:.9em; margin-left:.25rem}
+.form.elegant input,.form.elegant select,.form.elegant textarea{
+  width:100%; padding:.7rem .8rem; border-radius:14px; border:1px solid var(--line);
+  background:#fff; transition:border-color .2s ease, box-shadow .2s ease;
+  font-size:1rem;
+}
+.form.elegant input::placeholder,.form.elegant textarea::placeholder{opacity:.55}
+.form.elegant input:focus,.form.elegant select:focus,.form.elegant textarea:focus{
+  outline:none; border-color:var(--ink2); box-shadow:0 0 0 4px rgba(106,84,77,.08);
+}
+.form.elegant .note{margin-top:.4rem}
+
+
+.catTitle{margin:1.2rem .2rem .6rem;font-size:1.25rem;font-weight:700;opacity:.9}
+
+
+/* --- Scopri Mantova refinements --- */
+.kicker{ text-transform:uppercase; letter-spacing:.18em; font-size:.75rem; color:var(--ink2); opacity:.8; }
+.chipbar{ display:flex; gap:.5rem; flex-wrap:wrap; margin:.4rem 0 .8rem; }
+.chip{ border:1px solid var(--line); background:#fff; border-radius:999px; padding:.4rem .7rem; text-decoration:none; color:var(--ink); font-size:.95rem; }
+.chip:hover{ border-color:#d6c8be; box-shadow:0 1px 0 rgba(0,0,0,.04); }
+.catTitle{ margin:1.2rem .2rem .6rem; font-size:1.25rem; font-weight:700; opacity:.95; padding-bottom:.35rem; border-bottom:1px solid var(--line); }
+
+
+.hidden{display:none!important}
+
+/* Hide install button when running as installed app (standalone) */
+@media all and (display-mode: standalone){
+  [data-install-app], .install-app, #installApp{ display:none !important; }
+}
+
+html[apple-standalone="yes"] [data-install-app], html[apple-standalone="yes"] .install-app, html[apple-standalone="yes"] #installApp{display:none!important}
+
+/* Hide Install button when app is installed (standalone) */
+@media all and (display-mode: standalone){
+  #installBtn{ display:none !important; }
+}
+html[apple-standalone="yes"] #installBtn{ display:none !important; }
+.hidden{ display:none !important; }
+
+/* Hide over-hero logo badge */
+.hero-overlay .mark{ display:none !important; }
+
+/* --- Google Reviews badge (light, elegant) --- */
+.badge{display:inline-flex;align-items:center;gap:.35rem;padding:.28rem .6rem;border-radius:999px;border:1px solid #e6e1da;line-height:1;font-size:1rem}
+.badge.google{background:#f7faff;border-color:#dce7ff;color:#1a3a8a;text-decoration:none}
+.badge.google .star{color:#d49e13;font-weight:700}
+.badge.google:hover{box-shadow:0 1px 0 rgba(0,0,0,.05)}
+
+/* --- Review UI (headline + actions) --- */
+.review-headline{display:flex;align-items:center;gap:.5rem;flex-wrap:wrap;margin:.25rem 0 .5rem}
+
+.review-actions{display:flex;gap:.6rem;flex-wrap:wrap;margin:.2rem 0 .2rem}
+.badge{display:inline-flex;align-items:center;gap:.35rem;padding:.28rem .6rem;border-radius:999px;border:1px solid #e6e1da;line-height:1;font-size:1rem}
+.badge.google{background:#eff4ff;border-color:#d7e3ff;color:#1a3a8a;text-decoration:none}
+.badge.google .star{color:#f4b400;font-weight:700}
+
+.review-headline h1,
+.review-headline h2,
+.review-headline h3,
+.review-headline h4,
+.review-headline h5{margin:0}
+
+/* --- Ensure title + badge on a single row (wrap on very small screens) --- */
+.review-headline{display:flex;align-items:center;gap:.5rem;flex-wrap:nowrap;margin:.25rem 0 .5rem}
+@media (max-width: 420px){ .review-headline{flex-wrap:wrap} }
+.review-headline > *{flex:0 0 auto}
+
+/* Review badge rules */
+
+h2 .badge.google{margin-left:.5rem}
+.review-actions{display:flex;gap:.6rem;flex-wrap:wrap;margin:.35rem 0 .2rem}
+
+.review-headline .badge.google{margin-left:.5rem;vertical-align:middle}
+
+
+/* === Gallery refinements: one slide per view; prevent zoom/crop; consistent rendering === */
+.snap-slider .rail{ gap:0 !important; padding-left:0 !important; padding-right:0 !important; }
+.snap-slider .slide{ flex:0 0 100% !important; max-width:100% !important; }
+.snap-slider .slide img{
+  width:100%;
+  height:auto;                 /* keep natural ratio */
+  max-height:min(65vh, 640px); /* avoid upscaling too much */
+  object-fit:contain;          /* prevent cropping/zoom */
+  display:block;
+}
+
+/* Inline page-title icon */
+.title-ico{display:inline-block;margin-right:.5rem;line-height:1;vertical-align:middle;filter:saturate(1.1)}

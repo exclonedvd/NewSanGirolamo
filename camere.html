@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Le nostre Camere • Agriturismo Corte San Girolamo</title>
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="#6a544d">
+<link rel="icon" href="assets/img/icon-192.png">
+<link rel="apple-touch-icon" href="assets/img/icon-192.png">
+<link rel="preload" href="assets/img/home.jpg" as="image">
+<link rel="stylesheet" href="styles.css">
+<script defer src="ui-envy.js"></script>
+<script defer src="snap-slider.js"></script>
+
+<!-- PWA standalone guard: hides Install button when opened from Home (iOS/Android) -->
+<script>
+(function(){
+  try{
+    var isStandalone = (('standalone' in navigator) && navigator.standalone === true) 
+                       || (window.matchMedia && window.matchMedia('(display-mode: standalone)').matches);
+    if(isStandalone){
+      document.documentElement.setAttribute('apple-standalone','yes');
+      var st = document.createElement('style');
+      st.id = 'pwa-hide-install';
+      st.textContent = '[data-install-app], .install-app, #installApp{display:none!important}';
+      document.head.appendChild(st);
+    }
+  }catch(e){}
+})();
+</script>
+</head>
+<body data-page="camere">
+<header class="sitebar">
+  <a class="brand" href="index.html">
+    <img src="assets/img/logo.jpg" alt="Logo Corte San Girolamo">
+    <span>Corte San Girolamo</span>
+  </a>
+  <nav class="nav">
+    <button class="burger" aria-label="Apri menu" onclick="UI.toggleNav()">☰</button>
+    <ul>
+      <li><a href="index.html" data-active="index">Home</a></li>
+      <li><a href="galleria.html" data-active="galleria">Galleria</a></li>
+      <li><a href="camere.html" data-active="camere">Camere</a></li>
+      <li><a href="colazione-ristoro.html" data-active="cr">Colazione &amp; Ristoro</a></li>
+      <li><a href="esperienze.html" data-active="exp">Esperienze</a></li>
+      <li><a href="itinerari.html" data-active="iti">Itinerari</a></li>
+      <li><a href="scopri-mantova.html" data-active="sco">Scopri Mantova</a></li>
+    </ul>
+  </nav>
+  <button id="installBtn" class="btn ghost sm" onclick="UI.promptInstall()">⤓ Installa</button>
+</header>
+<main class="page">
+
+<section class="intro-narrow">
+  <h1><span class="title-ico">🛏️</span>Le nostre Camere</h1>
+  <p>Ambienti luminosi, essenziali e silenziosi, progettati per favorire riposo e concentrazione. In camera trovi materassi di qualità per un sonno confortevole, Wi-Fi per lavorare o navigare, climatizzazione regolabile per la temperatura ideale in ogni stagione e un set cortesia con i principali prodotti per l’igiene personale.</p>
+</section>
+<section class="card">
+  <h2>Dettagli &amp; ambienti</h2>
+  <div class="snap-slider" data-src="Camere"></div>
+</section>
+
+<section class="card">
+  <h2>Richiesta disponibilità</h2>
+  <p class="muted" style="margin-top:.2rem">Compili il modulo: le risponderemo con una proposta personalizzata nel più breve tempo possibile.</p>
+  <form class="form elegant" onsubmit="return UI.availability(this)" aria-label="Modulo richiesta disponibilità">
+    <div class="grid two">
+      <label class="field">Nome e cognome
+        <input required aria-required="true" name="name" autocomplete="name" placeholder="Es. Maria Bianchi">
+      </label>
+      <label class="field">Email
+        <input type="email" required aria-required="true" name="email" autocomplete="email" placeholder="nome@dominio.it">
+      </label>
+      <label class="field">Telefono <span class="hint">(facoltativo)</span>
+        <input type="tel" name="phone" autocomplete="tel" placeholder="+39 …">
+      </label>
+      <label class="field">Ospiti
+        <select name="guests" aria-label="Numero ospiti">
+          <option>1</option><option selected>2</option><option>3</option><option>4</option>
+        </select>
+      </label>
+      <label class="field">Arrivo
+        <input type="date" required aria-required="true" name="checkin">
+      </label>
+      <label class="field">Partenza
+        <input type="date" required aria-required="true" name="checkout">
+      </label>
+    </div>
+    <label class="field">Note (esigenze, orari, preferenze)
+      <textarea name="note" rows="5" placeholder="Es. intolleranze, orario indicativo di arrivo, necessità particolari…"></textarea>
+    </label>
+    <p class="note small muted">Con l’invio acconsente al trattamento dei dati esclusivamente per la gestione della richiesta.</p>
+    <div class="row" style="margin-top:.4rem">
+      <button class="btn" type="submit">Invia richiesta</button>
+      <a class="btn ghost" href="mailto:info@agriturismo-sangirolamo.it">Scriva via email</a>
+    </div>
+  </form>
+</section>
+
+
+</main>
+<footer class="foot">
+  <div class="fgrid">
+    <section>
+      <h4>Agriturismo Corte San Girolamo</h4>
+      <p>Str. S. Girolamo, 1, 46100 Mantova (MN)</p>
+      <p><a href="tel:+393478008505">347 800 8505</a> · <a href="mailto:info@agriturismo-sangirolamo.it">info@agriturismo-sangirolamo.it</a></p>
+      <p><a href="https://www.instagram.com/cortesangirolamo/?igsh=MTByZDhoNjFrcnp6OA==" target="_blank" rel="noopener">Instagram</a> · <a href="https://www.facebook.com/share/16ZMHcQUD4/?mibextid=wwXIfr" target="_blank" rel="noopener">Facebook</a></p>
+    </section>
+    <section>
+      <div class="review-headline"><h4>Dicono di noi</h4> <a class="badge google" href="https://www.google.com/maps/search/?api=1&query=Agriturismo%20Corte%20San%20Girolamo&query_place_id=ChIJ6WvNfk7RgUcRMKUu2xyQZWQ&hl=it" target="_blank" rel="noopener" aria-label="Valutazione 4,5 su 5 su Google"><span class="star">★</span> 4,5 su Google</a></div>
+      
+      <div class="review-actions"><div class="review-actions"><div class="review-actions"><a class="btn btn btn" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Agriturismo%20Corte%20San%20Girolamo&query_place_id=ChIJ6WvNfk7RgUcRMKUu2xyQZWQ&hl=it" target="_blank" rel="noopener"<a class="btn btn" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Agriturismo%20Corte%20San%20Girolamo&query_place_id=ChIJ6WvNfk7RgUcRMKUu2xyQZWQ&hl=it" target="_blank" rel="noopener">Leggi recensioni</a> <a class="btn ghost btn ghost btn ghost" target="_blank" rel="noopener" href="https://search.google.com/local/writereview?placeid=ChIJ6WvNfk7RgUcRMKUu2xyQZWQ" target="_blank" rel="noopener"<a class="btn ghost btn ghost" target="_blank" rel="noopener" href="https://search.google.com/local/writereview?placeid=ChIJ6WvNfk7RgUcRMKUu2xyQZWQ" target="_blank" rel="noopener">Scrivi recensione</a></div></div></div></section>
+    <section>
+      <h4>Legale</h4>
+      <p>Agriturismo Corte San Girolamo di Moreschi Mary · P.IVA 02655420202<br>Sede legale: Strada Soave 1 B – 46045 Marmirolo (MN)</p>
+    </section>
+  </div>
+  <p class="copy">© 2025 Agriturismo Corte San Girolamo — Sito &amp; Web App</p>
+</footer>
+<a class="wa" href="https://wa.me/393478008505" target="_blank" rel="noopener" aria-label="WhatsApp">✆</a>
+<script>if('serviceWorker' in navigator){addEventListener('load',()=>navigator.serviceWorker.register('sw.js'))}</script>
+</body></html>
