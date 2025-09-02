@@ -1,0 +1,356 @@
+{
+  "intro": {
+    "title": "Mantova • storia, sapori, attività",
+    "subtitle": "Nel cuore del Parco del Mincio e a pochi minuti dal centro, Agriturismo Corte San Girolamo è la base perfetta per scoprire Mantova: città dei Gonzaga tra arte, laghi, ciclabili e cucina sincera."
+  },
+  "ristoranti": {
+    "La tradizione": [
+      {
+        "nome": "Antica Osteria ai Ranari",
+        "indirizzo": "Via Trieste 11, 46100 Mantova",
+        "tel": "+39 0376 328431",
+        "maps": "Via Trieste 11, 46100 Mantova",
+        "fonte": [
+          "turn0search2",
+          "turn0search3"
+        ]
+      },
+      {
+        "nome": "Osteria della Fragoletta",
+        "indirizzo": "Piazza Arche 5/A, 46100 Mantova",
+        "tel": "+39 0376 323300",
+        "maps": "Piazza Arche 5/A, 46100 Mantova",
+        "fonte": [
+          "turn0search6"
+        ]
+      },
+      {
+        "nome": "Sucar Brusc",
+        "indirizzo": "Via Cavour 49, 46100 Mantova",
+        "tel": "+39 333 184 8730",
+        "maps": "Via Cavour 49, 46100 Mantova",
+        "fonte": [
+          "turn1search2"
+        ]
+      },
+      {
+        "nome": "Osteria delle Cinque Lire",
+        "indirizzo": "Strada Ostigliese 1, 46037 Roncoferraro (MN)",
+        "tel": "+39 0376 669082",
+        "maps": "Strada Ostigliese 1, 46037 Roncoferraro",
+        "fonte": [
+          "turn0search7"
+        ]
+      },
+      {
+        "nome": "Osteria del Campione",
+        "indirizzo": "Corso Umberto I 15, 46100 Mantova",
+        "tel": "+39 0376 288844",
+        "maps": "Corso Umberto I 15, 46100 Mantova",
+        "fonte": [
+          "turn2search8",
+          "turn2search20",
+          "turn9search7",
+          "turn9search17",
+          "turn9search25"
+        ]
+      },
+      {
+        "nome": "Osteria Piazza Sordello 26",
+        "indirizzo": "Piazza Sordello 26, 46100 Mantova",
+        "tel": "+39 0376 1410438",
+        "maps": "Piazza Sordello 26, 46100 Mantova",
+        "fonte": [
+          "turn9search1",
+          "turn9search5",
+          "turn9search12",
+          "turn9search13"
+        ]
+      },
+      {
+        "nome": "Retròbottega Bistrot",
+        "indirizzo": "Via G.B. Spagnoli 6/8, 46100 Mantova",
+        "tel": "+39 0376 366224",
+        "maps": "Via Giovanni Battista Spagnoli 6, Mantova",
+        "fonte": [
+          "turn9search6",
+          "turn9search10",
+          "turn9search20"
+        ]
+      },
+      {
+        "nome": "Bice La Gallina Felice",
+        "indirizzo": "Via Antonio Carbonati 4, 46100 Mantova",
+        "tel": "+39 0376 288368",
+        "maps": "Via Antonio Carbonati 4, 46100 Mantova",
+        "fonte": [
+          "turn2search21",
+          "turn2search25"
+        ]
+      },
+      {
+        "nome": "Piccola Osteria Andes",
+        "indirizzo": "Piazza Leon Battista Alberti 32/33, 46100 Mantova",
+        "tel": "+39 0376 355596",
+        "maps": "Piazza Leon Battista Alberti 32, 46100 Mantova",
+        "fonte": [
+          "turn2search26",
+          "turn2search14"
+        ]
+      }
+    ],
+    "Pizza": [
+      {
+        "nome": "Pizzeria Al Quadrato",
+        "indirizzo": "Piazza Virgiliana 49, 46100 Mantova",
+        "tel": "+39 0376 368896",
+        "maps": "Piazza Virgiliana 49, 46100 Mantova",
+        "fonte": [
+          "turn10search3",
+          "turn10search5",
+          "turn10search12"
+        ]
+      },
+      {
+        "nome": "Pizzikotto Mantova",
+        "indirizzo": "Piazzale Cesare Beccaria 1, 46100 Mantova",
+        "tel": "+39 0376 245716",
+        "maps": "Piazzale Cesare Beccaria 1, 46100 Mantova",
+        "fonte": [
+          "turn3search5",
+          "turn3search9"
+        ]
+      },
+      {
+        "nome": "Ristorante Pizzeria La Grotta",
+        "indirizzo": "Via Giacomo Leopardi 4, 46047 Porto Mantovano",
+        "tel": "+39 0376 387033",
+        "maps": "Via Giacomo Leopardi 4, 46047 Porto Mantovano",
+        "fonte": [
+          "turn3search7",
+          "turn3search11",
+          "turn3search19",
+          "turn3search23",
+          "turn3search27"
+        ]
+      },
+      {
+        "nome": "Pizzeria Nostromo",
+        "indirizzo": "Via Brescia 5, 46100 Mantova",
+        "tel": "+39 0376 391437",
+        "maps": "Via Brescia 5, 46100 Mantova",
+        "fonte": [
+          "turn3search6",
+          "turn3search18",
+          "turn3search26"
+        ]
+      }
+    ],
+    "Il pesce": [
+      {
+        "nome": "Osteria Da Giannino",
+        "indirizzo": "Via Leon d’Oro 6, 46100 Mantova",
+        "tel": "+39 0376 367582",
+        "maps": "Via Leon d'Oro 6, 46100 Mantova",
+        "fonte": [
+          "turn4search2",
+          "turn4search6",
+          "turn4search12",
+          "turn4search16"
+        ]
+      },
+      {
+        "nome": "Acquapazza Ristorante Bistrot",
+        "indirizzo": "Viale Mons. Luigi Martini 1 (Belfiore), 46100 Mantova",
+        "tel": "+39 0376 220891",
+        "maps": "Viale Monsignor Luigi Martini 1, Mantova",
+        "fonte": [
+          "turn4search1",
+          "turn4search9",
+          "turn4search13",
+          "turn4search15"
+        ]
+      }
+    ],
+    "Agriturismi con ristoro": [
+      {
+        "nome": "Agriturismo Fenilnovo",
+        "indirizzo": "Strada Campagnolo 3B, 46047 Porto Mantovano",
+        "tel": "+39 0376 1410860",
+        "maps": "Strada Campagnolo 3B, 46047 Porto Mantovano",
+        "fonte": [
+          "turn5search15",
+          "turn5search21"
+        ]
+      },
+      {
+        "nome": "Agriturismo Corte Barco",
+        "indirizzo": "Strada Mantova 21, 46045 Marmirolo",
+        "tel": "+39 339 222 6468",
+        "maps": "Strada Mantova 21, 46045 Marmirolo",
+        "fonte": [
+          "turn5search4",
+          "turn5search13",
+          "turn5search16"
+        ]
+      },
+      {
+        "nome": "Riseria / Agriturismo Il Galeotto",
+        "indirizzo": "Via Galeotto 2, 46030 Bigarello (MN)",
+        "tel": "+39 0376 324889",
+        "maps": "Via Galeotto 2, 46030 Bigarello",
+        "fonte": [
+          "turn5search23",
+          "turn5search26",
+          "turn5search11"
+        ]
+      }
+    ]
+  },
+  "cultura": {
+    "In città": [
+      {
+        "nome": "Palazzo Ducale",
+        "indirizzo": "Piazza Sordello 40, 46100 Mantova",
+        "tel": "+39 0376 224832",
+        "maps": "Piazza Sordello 40, 46100 Mantova",
+        "fonte": [
+          "turn6search0",
+          "turn6search4",
+          "turn6search12",
+          "turn6search20"
+        ]
+      },
+      {
+        "nome": "Palazzo Te",
+        "indirizzo": "Viale Te 13, 46100 Mantova",
+        "tel": "+39 0376 323266",
+        "maps": "Viale Te 13, 46100 Mantova",
+        "fonte": [
+          "turn6search1",
+          "turn6search9",
+          "turn6search13",
+          "turn6search17"
+        ]
+      },
+      {
+        "nome": "Teatro Scientifico Bibiena",
+        "indirizzo": "Via Accademia 47, 46100 Mantova",
+        "tel": "+39 0376 327653",
+        "maps": "Via Accademia 47, 46100 Mantova",
+        "fonte": [
+          "turn6search14",
+          "turn6search18",
+          "turn6search22",
+          "turn6search10"
+        ]
+      },
+      {
+        "nome": "Museo di Palazzo d’Arco",
+        "indirizzo": "Piazza Carlo d’Arco 4, 46100 Mantova",
+        "tel": "+39 0376 322242",
+        "maps": "Piazza Carlo d'Arco 4, 46100 Mantova",
+        "fonte": [
+          "turn6search3",
+          "turn6search11",
+          "turn6search15",
+          "turn6search19",
+          "turn6search23"
+        ]
+      },
+      {
+        "nome": "Basilica di Sant’Andrea",
+        "indirizzo": "Piazza Andrea Mantegna 1, 46100 Mantova",
+        "tel": "+39 0376 320220",
+        "maps": "Piazza Andrea Mantegna 1, 46100 Mantova",
+        "fonte": [
+          "turn7search9",
+          "turn7search13",
+          "turn7search21"
+        ]
+      },
+      {
+        "nome": "Rotonda di San Lorenzo",
+        "indirizzo": "Piazza delle Erbe, 46100 Mantova",
+        "tel": "+39 0376 322297",
+        "maps": "Piazza delle Erbe, 46100 Mantova",
+        "fonte": [
+          "turn7search8",
+          "turn7search4",
+          "turn7search12",
+          "turn7search20"
+        ]
+      },
+      {
+        "nome": "Casa di Rigoletto (Infopoint)",
+        "indirizzo": "Piazza Sordello 23, 46100 Mantova",
+        "tel": "+39 0376 288208",
+        "maps": "Piazza Sordello 23, 46100 Mantova",
+        "fonte": [
+          "turn7search14",
+          "turn7search18",
+          "turn7search10",
+          "turn7search22"
+        ]
+      },
+      {
+        "nome": "Museo Archeologico Nazionale",
+        "indirizzo": "Piazza Sordello 27, 46100 Mantova",
+        "tel": "+39 0376 320003",
+        "maps": "Piazza Sordello 27, 46100 Mantova",
+        "fonte": [
+          "turn7search3",
+          "turn7search7",
+          "turn7search23"
+        ]
+      }
+    ],
+    "Escursioni & natura": [
+      {
+        "nome": "Bosco della Fontana (Riserva Naturale)",
+        "indirizzo": "Str. Mantova 29, 46045 Marmirolo",
+        "tel": "+39 0376 295933",
+        "maps": "Strada Mantova 29, 46045 Marmirolo",
+        "fonte": [
+          "turn8search25",
+          "turn8search21",
+          "turn8search17",
+          "turn8search13"
+        ]
+      },
+      {
+        "nome": "Motonavi Andes Negrini (navigazione)",
+        "indirizzo": "Via San Giorgio 2, 46100 Mantova",
+        "tel": "+39 0376 322875",
+        "maps": "Via San Giorgio 2, Mantova",
+        "fonte": [
+          "turn11view0"
+        ]
+      },
+      {
+        "nome": "Sabbioneta – Città Ideale (UNESCO)",
+        "indirizzo": "Infopoint: Piazza d’Armi 1, 46018 Sabbioneta",
+        "tel": "+39 0375 221044",
+        "maps": "Piazza d'Armi 1, 46018 Sabbioneta",
+        "fonte": [
+          "turn8search2",
+          "turn8search18",
+          "turn8search14",
+          "turn8search22"
+        ]
+      },
+      {
+        "nome": "Abbazia di San Benedetto in Polirone",
+        "indirizzo": "Piazza Matilde di Canossa, 46027 San Benedetto Po",
+        "tel": "+39 0376 623036",
+        "maps": "Piazza Matilde di Canossa, San Benedetto Po",
+        "fonte": [
+          "turn8search3",
+          "turn8search15",
+          "turn8search23",
+          "turn8search11"
+        ]
+      }
+    ]
+  }
+}

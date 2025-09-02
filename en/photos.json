@@ -1,0 +1,71 @@
+{
+  "Apicoltura": [
+    "../assets/foto/Apicoltura/apicoltura-1.jpg",
+    "../assets/foto/Apicoltura/apicoltura-2.jpg",
+    "../assets/foto/Apicoltura/apicoltura-3.jpg"
+  ],
+  "Camere": [
+    "../assets/foto/Camere/IMG_1340.jpg",
+    "../assets/foto/Camere/IMG_3205.jpg",
+    "../assets/foto/Camere/IMG_3206.jpg",
+    "../assets/foto/Camere/IMG_3213.jpg",
+    "../assets/foto/Camere/IMG_9624.jpg",
+    "../assets/foto/Camere/IMG_9630.jpg",
+    "../assets/foto/Camere/IMG_9644.jpg",
+    "../assets/foto/Camere/IMG_9649.jpg",
+    "../assets/foto/Camere/IMG_9650.jpg"
+  ],
+  "Colazione": [
+    "../assets/foto/Colazione/colazione-1.jpg",
+    "../assets/foto/Colazione/colazione-2.jpg",
+    "../assets/foto/Colazione/colazione-3.jpg",
+    "../assets/foto/Colazione/colazione-4.jpg"
+  ],
+  "Galleria": [
+    "../assets/foto/Galleria/Agr-San-Girolamo-10.jpg",
+    "../assets/foto/Galleria/Agr-San-Girolamo-11.jpg",
+    "../assets/foto/Galleria/Agr-San-Girolamo-12 (1).jpg",
+    "../assets/foto/Galleria/Agr-San-Girolamo-13.jpg",
+    "../assets/foto/Galleria/Agr-San-Girolamo-14.jpg",
+    "../assets/foto/Galleria/Agr-San-Girolamo-15.jpg",
+    "../assets/foto/Galleria/Agr-San-Girolamo-18.jpg",
+    "../assets/foto/Galleria/Agr-San-Girolamo-2.jpg",
+    "../assets/foto/Galleria/Agr-San-Girolamo-20.jpg",
+    "../assets/foto/Galleria/Agr-San-Girolamo-21.jpg",
+    "../assets/foto/Galleria/Agr-San-Girolamo-22.jpg",
+    "../assets/foto/Galleria/Agr-San-Girolamo-24.jpg",
+    "../assets/foto/Galleria/Agr-San-Girolamo-25.jpg",
+    "../assets/foto/Galleria/Agr-San-Girolamo-26.jpg",
+    "../assets/foto/Galleria/Agr-San-Girolamo-28.jpg",
+    "../assets/foto/Galleria/Agr-San-Girolamo-29.jpg",
+    "../assets/foto/Galleria/Agr-San-Girolamo-30.jpg",
+    "../assets/foto/Galleria/Agr-San-Girolamo-31.jpg",
+    "../assets/foto/Galleria/Agr-San-Girolamo-32.jpg",
+    "../assets/foto/Galleria/Agr-San-Girolamo-35.jpg",
+    "../assets/foto/Galleria/Agr-San-Girolamo-36.jpg",
+    "../assets/foto/Galleria/Agr-San-Girolamo-37.jpg",
+    "../assets/foto/Galleria/Agr-San-Girolamo-38.jpg",
+    "../assets/foto/Galleria/Agr-San-Girolamo-8.jpg",
+    "../assets/foto/Galleria/slide1.jpg",
+    "../assets/foto/Galleria/slide2.jpg",
+    "../assets/foto/Galleria/slide3.jpg",
+    "../assets/foto/Galleria/slide4.jpg"
+  ],
+  "Massaggi": [
+    "../assets/foto/Massaggi/massaggi-1.jpg",
+    "../assets/foto/Massaggi/massaggi-2.jpg"
+    
+  ],
+  "Orto": [
+    "../assets/foto/Orto/orto-1.jpg",
+    "../assets/foto/Orto/orto-2.jpg",
+    "../assets/foto/Orto/orto-3.jpg",
+    "../assets/foto/Orto/orto-4.jpg"
+  ],
+  "Ristoro": [
+    
+    "../assets/foto/Ristoro/degustazioni-2.jpg",
+    "../assets/foto/Ristoro/degustazioni-3.jpg",
+    "../assets/foto/Ristoro/degustazioni-4.jpg"
+  ]
+}

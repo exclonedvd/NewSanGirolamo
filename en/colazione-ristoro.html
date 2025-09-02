@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Breakfast &amp; Dining • Agriturismo Corte San Girolamo</title>
+<link href="manifest.webmanifest?v=20250902-105407" rel="manifest"/>
+<meta content="#6a544d" name="theme-color"/>
+<link href="../assets/img/icon-192.png" rel="icon"/>
+<link href="../assets/img/icon-192.png" rel="apple-touch-icon"/>
+<link href="styles.css?v=20250902-105407" rel="stylesheet"/>
+
+<!-- PWA standalone guard: hides Install button when opened from Home (iOS/Android) -->
+<script>
+(function(){
+  try{
+    var isStandalone = (('standalone' in navigator) && navigator.standalone === true) 
+                       || (window.matchMedia && window.matchMedia('(display-mode: standalone)').matches);
+    if(isStandalone){
+      document.documentElement.setAttribute('apple-standalone','yes');
+      var st = document.createElement('style');
+      st.id = 'pwa-hide-install';
+      st.textContent = '[data-install-app], .install-app, #installApp{display:none!important}';
+      document.head.appendChild(st);
+    }
+  }catch(e){}
+})();
+</script>
+<meta content="Breakfast with local products, homemade cakes and our own honey. Tips for typical restaurants and trattorias." name="description"/><meta content="website" property="og:type"/><meta content="Corte San Girolamo" property="og:site_name"/><meta content="Breakfast &amp; Dining • Agriturismo Corte San Girolamo" property="og:title"/><meta content="Breakfast with local products, homemade cakes and our own honey. Tips for typical restaurants and trattorias." property="og:description"/><meta content="https://www.agriturismo-sangirolamo.it/en/colazione-ristoro.html" property="og:url"/><meta content="https://www.agriturismo-sangirolamo.it/../assets/img/home.jpg" property="og:image"/><meta content="summary_large_image" name="twitter:card"/><meta content="Breakfast &amp; Dining • Agriturismo Corte San Girolamo" name="twitter:title"/><meta content="Breakfast with local products, homemade cakes and our own honey. Tips for typical restaurants and trattorias." name="twitter:description"/><meta content="https://www.agriturismo-sangirolamo.it/../assets/img/home.jpg" name="twitter:image"/><link href="https://www.agriturismo-sangirolamo.it/colazione-ristoro.html" hreflang="it" rel="alternate"/><link href="https://www.agriturismo-sangirolamo.it/en/colazione-ristoro.html" hreflang="en" rel="alternate"/><link href="https://www.agriturismo-sangirolamo.it/de/colazione-ristoro.html" hreflang="de" rel="alternate"/><link href="https://www.agriturismo-sangirolamo.it/" hreflang="x-default" rel="alternate"/>
+    <link rel="canonical" href="https://www.agriturismo-sangirolamo.it/en/colazione-ristoro.html">
+    <link rel="alternate" hreflang="it" href="https://www.agriturismo-sangirolamo.it/colazione-ristoro.html">
+    <link rel="alternate" hreflang="en" href="https://www.agriturismo-sangirolamo.it/en/colazione-ristoro.html">
+    <link rel="alternate" hreflang="de" href="https://www.agriturismo-sangirolamo.it/de/colazione-ristoro.html">
+    <link rel="alternate" hreflang="x-default" href="https://www.agriturismo-sangirolamo.it/colazione-ristoro.html">
+</head>
+<body data-page="cr">
+<header class="sitebar">
+<a class="brand" href="index.html">
+<img alt="Corte San Girolamo logo" src="../assets/img/logo.jpg"/ width="921" height="920" loading="lazy">
+<span>Corte San Girolamo</span>
+</a>
+<nav class="nav">
+<button aria-label="Open menu" class="burger" onclick="UI.toggleNav()">☰</button>
+<ul>
+<li><a data-active="index" href="index.html">Home</a></li>
+<li><a data-active="galleria" href="galleria.html">Gallery</a></li>
+<li><a data-active="camere" href="camere.html">Rooms</a></li>
+<li><a data-active="cr" href="colazione-ristoro.html">Breakfast &amp; Dining</a></li>
+<li><a data-active="exp" href="esperienze.html">Experiences</a></li>
+<li><a data-active="iti" href="itinerari.html">Itineraries</a></li>
+<li><a data-active="sco" href="scopri-mantova.html">Discover Mantua</a></li>
+</ul>
+</nav>
+<button class="btn ghost sm" id="installBtn" onclick="UI.promptInstall()">⤓ Install</button>
+<nav class="lang-switch" style="font-size:1rem;line-height:1;margin:.25rem 0 .5rem;">
+<a aria-label="Italiano" href="../colazione-ristoro.html" hreflang="it" lang="it">🇮🇹</a>
+<span aria-hidden="true"> | </span>
+<a aria-label="English" href="./colazione-ristoro.html" hreflang="en" lang="en">🇬🇧</a>
+<span aria-hidden="true"> | </span>
+<a aria-label="Deutsch" href="../de/colazione-ristoro.html" hreflang="de" lang="de">🇩🇪</a>
+</nav></header>
+<main class="page">
+<section class="intro-narrow">
+<h1><span class="title-ico">🍽️</span>Breakfast &amp; Dining</h1>
+<p>Homemade cakes and jams, our own honey, and garden fruit. Platters of local cured meats and cheeses.</p>
+</section>
+<section class="card">
+<h2>Breakfast</h2>
+<p class="muted">Every morning we serve Mantuan-style breakfasts: homemade cakes, tarts with garden jams, fresh bread, honey from our apiary, yogurt, seasonal fruit, and a selection of freshly prepared hot drinks. Simple, authentic, and carefully selected products, for a sweet start to the day.</p>
+<div class="snap-slider" data-src="Colazione"></div>
+</section>
+<section class="card">
+<h2>Dining</h2>
+<p class="muted">For refreshments, we offer platters of typical local cured meats and cheeses, accompanied by homemade giardiniera, Mantua mustards, local bread, and select oils. An authentic break showcasing the flavors of the countryside and the excellence of small producers.</p>
+<div class="snap-slider" data-src="Ristoro"></div>
+</section>
+</main>
+<footer class="foot">
+<div class="fgrid">
+<section>
+<h4>Agriturismo Corte San Girolamo</h4>
+<p>Str. S. Girolamo, 1, 46100 Mantua (MN)</p>
+<p><a href="tel:+393478008505">347 800 8505</a> · <a href="mailto:info@agriturismo-sangirolamo.it">info@agriturismo-sangirolamo.it</a></p>
+<p><a href="https://www.instagram.com/cortesangirolamo/?igsh=MTByZDhoNjFrcnp6OA==" rel="noopener" target="_blank">Instagram</a> · <a href="https://www.facebook.com/share/16ZMHcQUD4/?mibextid=wwXIfr" rel="noopener" target="_blank">Facebook</a></p>
+</section>
+<section>
+<div class="review-headline"><h4>What guests say about us</h4> <a aria-label="Rating 4.5 out of 5 on Google" class="badge google" href="https://www.google.com/maps/search/?api=1&amp;query=Agriturismo%20Corte%20San%20Girolamo&amp;query_place_id=ChIJ6WvNfk7RgUcRMKUu2xyQZWQ&amp;hl=it" rel="noopener" target="_blank"><span class="star">★</span>4,5 on Google</a></div>
+<div class="review-actions"><div class="review-actions"><div class="review-actions"><a <a="" class="btn btn" href="https://www.google.com/maps/search/?api=1&amp;query=Agriturismo%20Corte%20San%20Girolamo&amp;query_place_id=ChIJ6WvNfk7RgUcRMKUu2xyQZWQ&amp;hl=it" rel="noopener" target="_blank">Read reviews</a> <a <a="" class="btn ghost btn ghost" href="https://search.google.com/local/writereview?placeid=ChIJ6WvNfk7RgUcRMKUu2xyQZWQ" rel="noopener" target="_blank">Write a review</a></div></div></div></section>
+<section>
+<h4>Legal</h4>
+<p>Agriturismo Corte San Girolamo by Moreschi Mary · VAT no. IT02655420202<br/>Registered office: Strada Soave 1 B – 46045 Marmirolo (MN)</p>
+</section>
+</div>
+<p class="copy">© 2025 Agriturismo Corte San Girolamo — Website &amp; Web App</p>
+</footer>
+<a aria-label="WhatsApp" class="wa" href="https://wa.me/393478008505" rel="noopener" target="_blank">✆</a>
+<script>if('serviceWorker' in navigator){addEventListener('load',()=>navigator.serviceWorker.register('sw.js'))}</script>
+<script defer src="../assets/app.v2.min.js?v=20250902-105407"></script>
+</body></html>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<html lang="it">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Galleria • Agriturismo Corte San Girolamo</title>
+<link href="manifest.webmanifest?v=20250902-105407" rel="manifest"/>
+<meta content="#6a544d" name="theme-color"/>
+<link href="assets/img/icon-192.png" rel="icon"/>
+<link href="assets/img/icon-192.png" rel="apple-touch-icon"/>
+<link href="styles.css?v=20250902-105407" rel="stylesheet"/>
+
+<!-- PWA standalone guard: hides Install button when opened from Home (iOS/Android) -->
+<script>
+(function(){
+  try{
+    var isStandalone = (('standalone' in navigator) && navigator.standalone === true) 
+                       || (window.matchMedia && window.matchMedia('(display-mode: standalone)').matches);
+    if(isStandalone){
+      document.documentElement.setAttribute('apple-standalone','yes');
+      var st = document.createElement('style');
+      st.id = 'pwa-hide-install';
+      st.textContent = '[data-install-app], .install-app, #installApp{display:none!important}';
+      document.head.appendChild(st);
+    }
+  }catch(e){}
+})();
+</script>
+<meta content="Galleria ufficiale: camere, colazioni, giardino, apicoltura e dintorni di Mantova." name="description"/><meta content="website" property="og:type"/><meta content="Corte San Girolamo" property="og:site_name"/><meta content="Galleria • Agriturismo Corte San Girolamo" property="og:title"/><meta content="Galleria ufficiale: camere, colazioni, giardino, apicoltura e dintorni di Mantova." property="og:description"/><meta content="https://www.agriturismo-sangirolamo.it/galleria.html" property="og:url"/><meta content="https://www.agriturismo-sangirolamo.it/assets/img/home.jpg" property="og:image"/><meta content="summary_large_image" name="twitter:card"/><meta content="Galleria • Agriturismo Corte San Girolamo" name="twitter:title"/><meta content="Galleria ufficiale: camere, colazioni, giardino, apicoltura e dintorni di Mantova." name="twitter:description"/><meta content="https://www.agriturismo-sangirolamo.it/assets/img/home.jpg" name="twitter:image"/><link href="https://www.agriturismo-sangirolamo.it/galleria.html" hreflang="it" rel="alternate"/><link href="https://www.agriturismo-sangirolamo.it/en/galleria.html" hreflang="en" rel="alternate"/><link href="https://www.agriturismo-sangirolamo.it/de/galleria.html" hreflang="de" rel="alternate"/><link href="https://www.agriturismo-sangirolamo.it/" hreflang="x-default" rel="alternate"/>
+    <link rel="canonical" href="https://www.agriturismo-sangirolamo.it/galleria.html">
+    <link rel="alternate" hreflang="it" href="https://www.agriturismo-sangirolamo.it/galleria.html">
+    <link rel="alternate" hreflang="en" href="https://www.agriturismo-sangirolamo.it/en/galleria.html">
+    <link rel="alternate" hreflang="de" href="https://www.agriturismo-sangirolamo.it/de/galleria.html">
+    <link rel="alternate" hreflang="x-default" href="https://www.agriturismo-sangirolamo.it/galleria.html">
+</head>
+<body data-page="galleria">
+<header class="sitebar">
+<a class="brand" href="index.html">
+<img alt="Logo Corte San Girolamo" src="assets/img/logo.jpg"/ width="921" height="920" loading="lazy">
+<span>Corte San Girolamo</span>
+</a>
+<nav class="nav">
+<button aria-label="Apri menu" class="burger" onclick="UI.toggleNav()">☰</button>
+<ul>
+<li><a data-active="index" href="index.html">Home</a></li>
+<li><a data-active="galleria" href="galleria.html">Galleria</a></li>
+<li><a data-active="camere" href="camere.html">Camere</a></li>
+<li><a data-active="cr" href="colazione-ristoro.html">Colazione &amp; Ristoro</a></li>
+<li><a data-active="exp" href="esperienze.html">Esperienze</a></li>
+<li><a data-active="iti" href="itinerari.html">Itinerari</a></li>
+<li><a data-active="sco" href="scopri-mantova.html">Scopri Mantova</a></li>
+</ul>
+</nav>
+<button class="btn ghost sm" id="installBtn" onclick="UI.promptInstall()">⤓ Installa</button>
+<nav class="lang-switch" style="font-size:1rem;line-height:1;margin:.25rem 0 .5rem;">
+<a aria-label="Italiano" href="galleria.html" hreflang="it" lang="it">🇮🇹</a>
+<span aria-hidden="true"> | </span>
+<a aria-label="English" href="en/galleria.html" hreflang="en" lang="en">🇬🇧</a>
+<span aria-hidden="true"> | </span>
+<a aria-label="Deutsch" href="de/galleria.html" hreflang="de" lang="de">🇩🇪</a>
+</nav></header>
+<main class="page">
+<section class="intro-narrow">
+<h1><span class="title-ico">📸</span>Galleria</h1>
+<p>Una gallery curata a mano che mostra camere, spazi comuni ed esterni: materiali autentici, colori morbidi, zero filtri invadenti. Il paesaggio del Mincio fa da cornice, per un’anteprima fedele dell’esperienza in corte.</p>
+</section>
+<section class="card">
+<div class="snap-slider" data-src="Galleria"></div>
+</section>
+</main>
+<footer class="foot">
+<div class="fgrid">
+<section>
+<h4>Agriturismo Corte San Girolamo</h4>
+<p>Str. S. Girolamo, 1, 46100 Mantova (MN)</p>
+<p><a href="tel:+393478008505">347 800 8505</a> · <a href="mailto:info@agriturismo-sangirolamo.it">info@agriturismo-sangirolamo.it</a></p>
+<p><a href="https://www.instagram.com/cortesangirolamo/?igsh=MTByZDhoNjFrcnp6OA==" rel="noopener" target="_blank">Instagram</a> · <a href="https://www.facebook.com/share/16ZMHcQUD4/?mibextid=wwXIfr" rel="noopener" target="_blank">Facebook</a></p>
+</section>
+<section>
+<div class="review-headline"><h4>Dicono di noi</h4> <a aria-label="Valutazione 4,5 su 5 su Google" class="badge google" href="https://www.google.com/maps/search/?api=1&amp;query=Agriturismo%20Corte%20San%20Girolamo&amp;query_place_id=ChIJ6WvNfk7RgUcRMKUu2xyQZWQ&amp;hl=it" rel="noopener" target="_blank"><span class="star">★</span> 4,5 su Google</a></div>
+<div class="review-actions"><div class="review-actions"><div class="review-actions"><a <a="" class="btn btn" href="https://www.google.com/maps/search/?api=1&amp;query=Agriturismo%20Corte%20San%20Girolamo&amp;query_place_id=ChIJ6WvNfk7RgUcRMKUu2xyQZWQ&amp;hl=it" rel="noopener" target="_blank">Leggi recensioni</a> <a <a="" class="btn ghost btn ghost" href="https://search.google.com/local/writereview?placeid=ChIJ6WvNfk7RgUcRMKUu2xyQZWQ" rel="noopener" target="_blank">Scrivi recensione</a></div></div></div></section>
+<section>
+<h4>Legale</h4>
+<p>Agriturismo Corte San Girolamo di Moreschi Mary · P.IVA 02655420202<br/>Sede legale: Strada Soave 1 B – 46045 Marmirolo (MN)</p>
+</section>
+</div>
+<p class="copy">© 2025 Agriturismo Corte San Girolamo — Sito &amp; Web App</p>
+</footer>
+<a aria-label="WhatsApp" class="wa" href="https://wa.me/393478008505" rel="noopener" target="_blank">✆</a>
+<script>if('serviceWorker' in navigator){addEventListener('load',()=>navigator.serviceWorker.register('sw.js'))}</script>
+<script defer src="assets/app.v2.min.js?v=20250902-105407"></script>
+</body></html>

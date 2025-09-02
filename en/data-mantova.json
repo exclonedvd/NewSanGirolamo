@@ -1,0 +1,511 @@
+{
+  "ristoranti": [
+    {
+      "nome": ">͛ŽĸĐŝŶĂ del panino",
+      "tel": "335/7202742",
+      "indirizzo": "",
+      "maps": "https://www.google.com/maps?q=>͛ŽĸĐŝŶĂ+del+panino+Mantova"
+    },
+    {
+      "nome": "Al portichetto 0",
+      "tel": "376/1960620",
+      "indirizzo": "",
+      "maps": "https://www.google.com/maps?q=Al+portichetto+0+Mantova"
+    },
+    {
+      "nome": "Antica osteria ai ranari 0",
+      "tel": "376/328431",
+      "indirizzo": "",
+      "maps": "https://www.google.com/maps?q=Antica+osteria+ai+ranari+0+Mantova"
+    },
+    {
+      "nome": "Bice la gallina ĨĞůŝĐĞ 0",
+      "tel": "376/288368",
+      "indirizzo": "",
+      "maps": "https://www.google.com/maps?q=Bice+la+gallina+ĨĞůŝĐĞ+0+Mantova"
+    },
+    {
+      "nome": "Bigoleria al torchio",
+      "tel": "348/0466563",
+      "indirizzo": "",
+      "maps": "https://www.google.com/maps?q=Bigoleria+al+torchio+Mantova"
+    },
+    {
+      "nome": "Corte Barco",
+      "tel": "339/2226468",
+      "indirizzo": "",
+      "maps": "https://www.google.com/maps?q=Corte+Barco+Mantova"
+    },
+    {
+      "nome": "Da Giannino 0",
+      "tel": "376/367582",
+      "indirizzo": "",
+      "maps": "https://www.google.com/maps?q=Da+Giannino+0+Mantova"
+    },
+    {
+      "nome": "Da Vasco 0",
+      "tel": "376/26264",
+      "indirizzo": "",
+      "maps": "https://www.google.com/maps?q=Da+Vasco+0+Mantova"
+    },
+    {
+      "nome": "Fenilnovo 0",
+      "tel": "376/442862",
+      "indirizzo": "",
+      "maps": "https://www.google.com/maps?q=Fenilnovo+0+Mantova"
+    },
+    {
+      "nome": "I lŐŽůĨŽ di Napoli 0",
+      "tel": "376/391435",
+      "indirizzo": "",
+      "maps": "https://www.google.com/maps?q=I+lŐŽůĨŽ+di+Napoli+0+Mantova"
+    },
+    {
+      "nome": "Il galeotto 0",
+      "tel": "376/229165",
+      "indirizzo": "",
+      "maps": "https://www.google.com/maps?q=Il+galeotto+0+Mantova"
+    },
+    {
+      "nome": "Nostromo 0376/3691437• La grotta 0",
+      "tel": "376/387033",
+      "indirizzo": "",
+      "maps": "https://www.google.com/maps?q=Nostromo+0376/3691437•+La+grotta+0+Mantova"
+    },
+    {
+      "nome": "Osterie delle 5 lire 0",
+      "tel": "376/669082",
+      "indirizzo": "",
+      "maps": "https://www.google.com/maps?q=Osterie+delle+5+lire+0+Mantova"
+    },
+    {
+      "nome": "P o r a >͛ŽƌĂ",
+      "tel": "347/2938947",
+      "indirizzo": "",
+      "maps": "https://www.google.com/maps?q=P+o+r+a+>͛ŽƌĂ+Mantova"
+    },
+    {
+      "nome": "Piccola osteria Andes 0",
+      "tel": "376/355596",
+      "indirizzo": "",
+      "maps": "https://www.google.com/maps?q=Piccola+osteria+Andes+0+Mantova"
+    },
+    {
+      "nome": "Retrobottega bistrot 0376/366224• Osteria del campione 0",
+      "tel": "376/288844",
+      "indirizzo": "",
+      "maps": "https://www.google.com/maps?q=Retrobottega+bistrot+0376/366224•+Osteria+del+campione+0+Mantova"
+    },
+    {
+      "nome": "Sordello 26 0",
+      "tel": "376/221107",
+      "indirizzo": "",
+      "maps": "https://www.google.com/maps?q=Sordello+26+0+Mantova"
+    },
+    {
+      "nome": "Tramvai 0",
+      "tel": "376/1620576",
+      "indirizzo": "",
+      "maps": "https://www.google.com/maps?q=Tramvai+0+Mantova"
+    },
+    {
+      "nome": "Trattoria la stella 0",
+      "tel": "376/300635",
+      "indirizzo": "",
+      "maps": "https://www.google.com/maps?q=Trattoria+la+stella+0+Mantova"
+    },
+    {
+      "nome": "Trattoria ĚĞůů͛ŽĐĂ 0",
+      "tel": "376/327171",
+      "indirizzo": "",
+      "maps": "https://www.google.com/maps?q=Trattoria+ĚĞůů͛ŽĐĂ+0+Mantova"
+    }
+  ],
+  "attivita": [
+    {
+      "nome": "\u0012ĂīĞ\u0012ƵďĂŶŽ;\u0012ŽĐŬƚĂŝů dopoĐĞŶĂͿ",
+      "indirizzo": "",
+      "tel": "",
+      "maps": "https://www.google.com/maps?q=\u0012ĂīĞ\u0012ƵďĂŶŽ;\u0012ŽĐŬƚĂŝů+dopoĐĞŶĂͿ+Mantova"
+    },
+    {
+      "nome": "\u0012ƌƵcaviar experience nel Parco del Mincio",
+      "indirizzo": "",
+      "tel": "",
+      "maps": "https://www.google.com/maps?q=\u0012ƌƵcaviar+experience+nel+Parco+del+Mincio+Mantova"
+    },
+    {
+      "nome": ">͛ĂůƚŽŵĂŶƚŽǀĂŶŽ͗ Da borghetto al Lago di Garda",
+      "indirizzo": "",
+      "tel": "",
+      "maps": "https://www.google.com/maps?q=>͛ĂůƚŽŵĂŶƚŽǀĂŶŽ͗+Da+borghetto+al+Lago+di+Garda+Mantova"
+    },
+    {
+      "nome": ">͛ĂƵƚŽƐƚƌĂĚĂǀĞƌĚĞ͗ Da Mantova a Peschiera",
+      "indirizzo": "",
+      "tel": "",
+      "maps": "https://www.google.com/maps?q=>͛ĂƵƚŽƐƚƌĂĚĂǀĞƌĚĞ͗+Da+Mantova+a+Peschiera+Mantova"
+    },
+    {
+      "nome": "^ŬǇůŝŶĞ dellaĐŝƚƚă dal ponte di San Giorgio",
+      "indirizzo": "",
+      "tel": "",
+      "maps": "https://www.google.com/maps?q=^ŬǇůŝŶĞ+dellaĐŝƚƚă+dal+ponte+di+San+Giorgio+Mantova"
+    },
+    {
+      "nome": "A caccia con i 'ŽŶǌĂŐĂ͗ Bosco Fontana",
+      "indirizzo": "",
+      "tel": "",
+      "maps": "https://www.google.com/maps?q=A+caccia+con+i+'ŽŶǌĂŐĂ͗+Bosco+Fontana+Mantova"
+    },
+    {
+      "nome": "A spasso nella piccola \u0004ƚĞŶĞ͗ Sabbioneta",
+      "indirizzo": "",
+      "tel": "",
+      "maps": "https://www.google.com/maps?q=A+spasso+nella+piccola+\u0004ƚĞŶĞ͗+Sabbioneta+Mantova"
+    },
+    {
+      "nome": "Basilicata di ^ĂŶƚ͛\u0004ŶĚƌĞĂ",
+      "indirizzo": "",
+      "tel": "",
+      "maps": "https://www.google.com/maps?q=Basilicata+di+^ĂŶƚ͛\u0004ŶĚƌĞĂ+Mantova"
+    },
+    {
+      "nome": "Biblioteca ĐŽŵƵŶĂůĞ Teresiana",
+      "indirizzo": "",
+      "tel": "",
+      "maps": "https://www.google.com/maps?q=Biblioteca+ĐŽŵƵŶĂůĞ+Teresiana+Mantova"
+    },
+    {
+      "nome": "Casa del Mantegna",
+      "indirizzo": "",
+      "tel": "",
+      "maps": "https://www.google.com/maps?q=Casa+del+Mantegna+Mantova"
+    },
+    {
+      "nome": "Casa di'ŝƵůŝŽ Romano",
+      "indirizzo": "",
+      "tel": "",
+      "maps": "https://www.google.com/maps?q=Casa+di'ŝƵůŝŽ+Romano+Mantova"
+    },
+    {
+      "nome": "Case del Rigoletto",
+      "indirizzo": "",
+      "tel": "",
+      "maps": "https://www.google.com/maps?q=Case+del+Rigoletto+Mantova"
+    },
+    {
+      "nome": "Castello di San Giorgio",
+      "indirizzo": "",
+      "tel": "",
+      "maps": "https://www.google.com/maps?q=Castello+di+San+Giorgio+Mantova"
+    },
+    {
+      "nome": "Chiesa San Maria Del Gradaro",
+      "indirizzo": "",
+      "tel": "",
+      "maps": "https://www.google.com/maps?q=Chiesa+San+Maria+Del+Gradaro+Mantova"
+    },
+    {
+      "nome": "Crociera tra ůĂŐŽ͕DŝŶĐŝŽ͕ Po eĮori di loto",
+      "indirizzo": "",
+      "tel": "",
+      "maps": "https://www.google.com/maps?q=Crociera+tra+ůĂŐŽ͕DŝŶĐŝŽ͕+Po+eĮori+di+loto+Mantova"
+    },
+    {
+      "nome": "DƵƐĞŽ archeologici",
+      "indirizzo": "",
+      "tel": "",
+      "maps": "https://www.google.com/maps?q=DƵƐĞŽ+archeologici+Mantova"
+    },
+    {
+      "nome": "DƵƐĞŽŶĂǌŝŽŶĂůĞ dei vigili del ĨƵŽĐŽ",
+      "indirizzo": "",
+      "tel": "",
+      "maps": "https://www.google.com/maps?q=DƵƐĞŽŶĂǌŝŽŶĂůĞ+dei+vigili+del+ĨƵŽĐŽ+Mantova"
+    },
+    {
+      "nome": "Ib a r c a i o l id e lM i n c i o",
+      "indirizzo": "",
+      "tel": "",
+      "maps": "https://www.google.com/maps?q=Ib+a+r+c+a+i+o+l+id+e+lM+i+n+c+i+o+Mantova"
+    },
+    {
+      "nome": "Il\u0018ƵŽŵŽ",
+      "indirizzo": "",
+      "tel": "",
+      "maps": "https://www.google.com/maps?q=Il\u0018ƵŽŵŽ+Mantova"
+    },
+    {
+      "nome": "Il Fascino del Grande &ŝƵŵĞ͗ Viadana",
+      "indirizzo": "",
+      "tel": "",
+      "maps": "https://www.google.com/maps?q=Il+Fascino+del+Grande+&ŝƵŵĞ͗+Viadana+Mantova"
+    },
+    {
+      "nome": "Il giardino ƉĂƌĂĚŝƐŽ͗ Parco^ŝŐƵƌƚă",
+      "indirizzo": "",
+      "tel": "",
+      "maps": "https://www.google.com/maps?q=Il+giardino+ƉĂƌĂĚŝƐŽ͗+Parco^ŝŐƵƌƚă+Mantova"
+    },
+    {
+      "nome": "La casa del mercante",
+      "indirizzo": "",
+      "tel": "",
+      "maps": "https://www.google.com/maps?q=La+casa+del+mercante+Mantova"
+    },
+    {
+      "nome": "La citta vista dai ůĂŐŚŝ͗ Giro in motonave",
+      "indirizzo": "",
+      "tel": "",
+      "maps": "https://www.google.com/maps?q=La+citta+vista+dai+ůĂŐŚŝ͗+Giro+in+motonave+Mantova"
+    },
+    {
+      "nome": "La magia del WŽůŝƌŽŶĞ͗ San benedetto Pio",
+      "indirizzo": "",
+      "tel": "",
+      "maps": "https://www.google.com/maps?q=La+magia+del+WŽůŝƌŽŶĞ͗+San+benedetto+Pio+Mantova"
+    },
+    {
+      "nome": "La via del ƌŝƐŽ͗ Da Mantova a Castel \u0018͛ĂƌŝŽ",
+      "indirizzo": "",
+      "tel": "",
+      "maps": "https://www.google.com/maps?q=La+via+del+ƌŝƐŽ͗+Da+Mantova+a+Castel+\u0018͛ĂƌŝŽ+Mantova"
+    },
+    {
+      "nome": "LaĂŶǌĂƌĂ (Locale tipico ůƵŶŐŽůĂŐŽͿ",
+      "indirizzo": "",
+      "tel": "",
+      "maps": "https://www.google.com/maps?q=LaĂŶǌĂƌĂ+(Locale+tipico+ůƵŶŐŽůĂŐŽͿ+Mantova"
+    },
+    {
+      "nome": "Loggia delle pescherie",
+      "indirizzo": "",
+      "tel": "",
+      "maps": "https://www.google.com/maps?q=Loggia+delle+pescherie+Mantova"
+    },
+    {
+      "nome": "Mantova KƵƚůĞƚ Village",
+      "indirizzo": "",
+      "tel": "",
+      "maps": "https://www.google.com/maps?q=Mantova+KƵƚůĞƚ+Village+Mantova"
+    },
+    {
+      "nome": "Nella terra del ƚĂƌƚƵĨŽ͗ Revere",
+      "indirizzo": "",
+      "tel": "",
+      "maps": "https://www.google.com/maps?q=Nella+terra+del+ƚĂƌƚƵĨŽ͗+Revere+Mantova"
+    },
+    {
+      "nome": "Pande al pane (Pasta ĨƌĞƐĐĂ et o r t ad ir o s e",
+      "indirizzo": "",
+      "tel": "",
+      "maps": "https://www.google.com/maps?q=Pande+al+pane+(Pasta+ĨƌĞƐĐĂ+et+o+r+t+ad+ir+o+s+e+Mantova"
+    },
+    {
+      "nome": "Papas (Locale tipico ůƵŶŐŽůĂŐŽͿ",
+      "indirizzo": "",
+      "tel": "",
+      "maps": "https://www.google.com/maps?q=Papas+(Locale+tipico+ůƵŶŐŽůĂŐŽͿ+Mantova"
+    },
+    {
+      "nome": "Pasticceria \u0004ŶƚŽŶŝĂǌǌŝ e\u0012Ăīğ Borsa",
+      "indirizzo": "",
+      "tel": "",
+      "maps": "https://www.google.com/maps?q=Pasticceria+\u0004ŶƚŽŶŝĂǌǌŝ+e\u0012Ăīğ+Borsa+Mantova"
+    },
+    {
+      "nome": "Rotonda di San >ŽƌĞŶǌŽ",
+      "indirizzo": "",
+      "tel": "",
+      "maps": "https://www.google.com/maps?q=Rotonda+di+San+>ŽƌĞŶǌŽ+Mantova"
+    },
+    {
+      "nome": "Teatri Bibiena",
+      "indirizzo": "",
+      "tel": "",
+      "maps": "https://www.google.com/maps?q=Teatri+Bibiena+Mantova"
+    },
+    {
+      "nome": "Teatro Sociale",
+      "indirizzo": "",
+      "tel": "",
+      "maps": "https://www.google.com/maps?q=Teatro+Sociale+Mantova"
+    },
+    {
+      "nome": "Tempio e ƉĂůĂǌǌŽ di San Sebastiano",
+      "indirizzo": "",
+      "tel": "",
+      "maps": "https://www.google.com/maps?q=Tempio+e+ƉĂůĂǌǌŽ+di+San+Sebastiano+Mantova"
+    },
+    {
+      "nome": "VisitaĐĂƐĞŝĮĐŝŽ conĚĞŐƵƐƚĂǌŝŽŶĞ (Latteria San Pietro di 'ŽŝƚŽͿ",
+      "indirizzo": "",
+      "tel": "",
+      "maps": "https://www.google.com/maps?q=VisitaĐĂƐĞŝĮĐŝŽ+conĚĞŐƵƐƚĂǌŝŽŶĞ+(Latteria+San+Pietro+di+'ŽŝƚŽͿ+Mantova"
+    },
+    {
+      "nome": "WĂůĂǌǌŽ della ragione e torre ĚĞůů͛ŽƌŽůŽŐŝŽ",
+      "indirizzo": "",
+      "tel": "",
+      "maps": "https://www.google.com/maps?q=WĂůĂǌǌŽ+della+ragione+e+torre+ĚĞůů͛ŽƌŽůŽŐŝŽ+Mantova"
+    },
+    {
+      "nome": "WĂůĂǌǌŽ Te",
+      "indirizzo": "",
+      "tel": "",
+      "maps": "https://www.google.com/maps?q=WĂůĂǌǌŽ+Te+Mantova"
+    },
+    {
+      "nome": "WĂůĂǌǌŽĚƵĐĂůĞ",
+      "indirizzo": "",
+      "tel": "",
+      "maps": "https://www.google.com/maps?q=WĂůĂǌǌŽĚƵĐĂůĞ+Mantova"
+    },
+    {
+      "nome": "WĂůĂǌǌŽĚ͛\u0004ƌĐŽ",
+      "indirizzo": "",
+      "tel": "",
+      "maps": "https://www.google.com/maps?q=WĂůĂǌǌŽĚ͛\u0004ƌĐŽ+Mantova"
+    },
+    {
+      "nome": "WŝĂǌǌĂ Leon Battista Alberti",
+      "indirizzo": "",
+      "tel": "",
+      "maps": "https://www.google.com/maps?q=WŝĂǌǌĂ+Leon+Battista+Alberti+Mantova"
+    }
+  ],
+  "categorie_ristoranti": {
+    "La Carne": [
+      {
+        "nome": ">͛ŽĸĐŝŶĂ del panino",
+        "tel": "335/7202742",
+        "indirizzo": "",
+        "maps": "https://www.google.com/maps?q=>͛ŽĸĐŝŶĂ+del+panino+Mantova"
+      },
+      {
+        "nome": "Al portichetto 0",
+        "tel": "376/1960620",
+        "indirizzo": "",
+        "maps": "https://www.google.com/maps?q=Al+portichetto+0+Mantova"
+      },
+      {
+        "nome": "Da Vasco 0",
+        "tel": "376/26264",
+        "indirizzo": "",
+        "maps": "https://www.google.com/maps?q=Da+Vasco+0+Mantova"
+      },
+      {
+        "nome": "Tramvai 0",
+        "tel": "376/1620576",
+        "indirizzo": "",
+        "maps": "https://www.google.com/maps?q=Tramvai+0+Mantova"
+      }
+    ],
+    "Il Pesce": [
+      {
+        "nome": "Da Giannino 0",
+        "tel": "376/367582",
+        "indirizzo": "",
+        "maps": "https://www.google.com/maps?q=Da+Giannino+0+Mantova"
+      }
+    ],
+    "Agriturismo": [
+      {
+        "nome": "Corte Barco",
+        "tel": "339/2226468",
+        "indirizzo": "",
+        "maps": "https://www.google.com/maps?q=Corte+Barco+Mantova"
+      },
+      {
+        "nome": "Fenilnovo 0",
+        "tel": "376/442862",
+        "indirizzo": "",
+        "maps": "https://www.google.com/maps?q=Fenilnovo+0+Mantova"
+      },
+      {
+        "nome": "Il galeotto 0",
+        "tel": "376/229165",
+        "indirizzo": "",
+        "maps": "https://www.google.com/maps?q=Il+galeotto+0+Mantova"
+      },
+      {
+        "nome": "P o r a >͛ŽƌĂ",
+        "tel": "347/2938947",
+        "indirizzo": "",
+        "maps": "https://www.google.com/maps?q=P+o+r+a+>͛ŽƌĂ+Mantova"
+      }
+    ],
+    "La Tradizione": [
+      {
+        "nome": "Antica osteria ai ranari 0",
+        "tel": "376/328431",
+        "indirizzo": "",
+        "maps": "https://www.google.com/maps?q=Antica+osteria+ai+ranari+0+Mantova"
+      },
+      {
+        "nome": "Bice la gallina ĨĞůŝĐĞ 0",
+        "tel": "376/288368",
+        "indirizzo": "",
+        "maps": "https://www.google.com/maps?q=Bice+la+gallina+ĨĞůŝĐĞ+0+Mantova"
+      },
+      {
+        "nome": "Bigoleria al torchio",
+        "tel": "348/0466563",
+        "indirizzo": "",
+        "maps": "https://www.google.com/maps?q=Bigoleria+al+torchio+Mantova"
+      },
+      {
+        "nome": "Osterie delle 5 lire 0",
+        "tel": "376/669082",
+        "indirizzo": "",
+        "maps": "https://www.google.com/maps?q=Osterie+delle+5+lire+0+Mantova"
+      },
+      {
+        "nome": "Piccola osteria Andes 0",
+        "tel": "376/355596",
+        "indirizzo": "",
+        "maps": "https://www.google.com/maps?q=Piccola+osteria+Andes+0+Mantova"
+      },
+      {
+        "nome": "Retrobottega bistrot 0376/366224• Osteria del campione 0",
+        "tel": "376/288844",
+        "indirizzo": "",
+        "maps": "https://www.google.com/maps?q=Retrobottega+bistrot+0376/366224•+Osteria+del+campione+0+Mantova"
+      },
+      {
+        "nome": "Sordello 26 0",
+        "tel": "376/221107",
+        "indirizzo": "",
+        "maps": "https://www.google.com/maps?q=Sordello+26+0+Mantova"
+      },
+      {
+        "nome": "Trattoria la stella 0",
+        "tel": "376/300635",
+        "indirizzo": "",
+        "maps": "https://www.google.com/maps?q=Trattoria+la+stella+0+Mantova"
+      },
+      {
+        "nome": "Trattoria ĚĞůů͛ŽĐĂ 0",
+        "tel": "376/327171",
+        "indirizzo": "",
+        "maps": "https://www.google.com/maps?q=Trattoria+ĚĞůů͛ŽĐĂ+0+Mantova"
+      }
+    ],
+    "La Pizza": [
+      {
+        "nome": "I lŐŽůĨŽ di Napoli 0",
+        "tel": "376/391435",
+        "indirizzo": "",
+        "maps": "https://www.google.com/maps?q=I+lŐŽůĨŽ+di+Napoli+0+Mantova"
+      },
+      {
+        "nome": "Nostromo 0376/3691437• La grotta 0",
+        "tel": "376/387033",
+        "indirizzo": "",
+        "maps": "https://www.google.com/maps?q=Nostromo+0376/3691437•+La+grotta+0+Mantova"
+      }
+    ]
+  },
+  "categorie_attivita": {}
+}
