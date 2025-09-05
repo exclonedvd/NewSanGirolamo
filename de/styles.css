@@ -209,3 +209,38 @@ h2 .badge.google{margin-left:.5rem}
   border-radius:var(--radius-lg);
 }
 
+/* --- Desktop tweak appended --- */
+
+/* === Gallery desktop tweak — 2025-09-05 ===
+   Riduce l'altezza del riquadro su desktop mantenendo:
+   - altezza costante tra le slide
+   - nessun crop (object-fit: contain)
+   - layout centrato con max-width
+*/
+@media (min-width: 1024px){
+  .snap-slider{
+    max-width: 1100px;
+    margin-inline: auto;
+  }
+  .snap-slider .slide{
+    aspect-ratio: auto !important;                  /* disattiva il vincolo 16:9 */
+    height: clamp(340px, 38vh, 440px) !important;   /* regola qui per più piccolo/grande */
+    overflow: hidden !important;
+  }
+  .snap-slider .slide img{
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: contain !important;                 /* mai tagliare */
+    display: block !important;
+  }
+}
+
+/* Optional: frecce un filo più compatte su desktop */
+@media (min-width: 1024px){
+  .snap-slider .ctrl{
+    width: 40px;
+    height: 40px;
+    font-size: 22px;
+  }
+}
+
