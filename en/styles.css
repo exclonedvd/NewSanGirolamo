@@ -173,22 +173,37 @@ h2 .badge.google{margin-left:.5rem}
 .title-ico{display:inline-block;margin-right:.5rem;line-height:1;vertical-align:middle;filter:saturate(1.1)}
 
 
-/* === Gallery auto-fit fix (multilang) — 2025-09-05 ===
-   Ogni cornice della galleria si adatta alla propria foto,
-   evitando che l'altezza venga "stirata" dalla foto più grande.
+/* === Gallery uniform height, no-crop — 2025-09-05 ===
+   Obiettivo: cornici tutte uguali, nessun taglio.
+   - Il contenitore .slide ha un aspect-ratio fisso (varia per breakpoint)
+   - L'immagine riempie lo spazio ma resta "contain" → niente crop (letterboxing)
+   - Override aggressivo con !important per superare regole esistenti
 */
+
 .snap-slider .rail{
-  align-items:flex-start !important; /* niente altezza unica */
+  align-items:stretch !important;
 }
 
 .snap-slider .slide{
-  height:auto !important;
-  overflow:visible !important;
+  position:relative !important;
+  aspect-ratio:16/9 !important;
+  background:var(--paper) !important;
+  overflow:hidden !important;
+}
+
+@media (max-width: 980px){
+  .snap-slider .slide{ aspect-ratio:4/3 !important; }
+}
+
+@media (max-width: 640px){
+  .snap-slider .slide{ aspect-ratio:1/1 !important; }
 }
 
 .snap-slider .slide img{
+  position:absolute !important;
+  inset:0 !important;
   width:100% !important;
-  height:auto !important;
+  height:100% !important;
   object-fit:contain !important;
   display:block !important;
   border-radius:var(--radius-lg);
