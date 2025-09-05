@@ -171,3 +171,26 @@ h2 .badge.google{margin-left:.5rem}
 
 /* Inline page-title icon */
 .title-ico{display:inline-block;margin-right:.5rem;line-height:1;vertical-align:middle;filter:saturate(1.1)}
+
+
+/* === Gallery auto-fit fix (multilang) — 2025-09-05 ===
+   Ogni cornice della galleria si adatta alla propria foto,
+   evitando che l'altezza venga "stirata" dalla foto più grande.
+*/
+.snap-slider .rail{
+  align-items:flex-start !important; /* niente altezza unica */
+}
+
+.snap-slider .slide{
+  height:auto !important;
+  overflow:visible !important;
+}
+
+.snap-slider .slide img{
+  width:100% !important;
+  height:auto !important;
+  object-fit:contain !important;
+  display:block !important;
+  border-radius:var(--radius-lg);
+}
+
